@@ -3,6 +3,10 @@
   "displayName": "Flexit",
   "description": "VS Code extension for Flex (.l) file snippets",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Santhosh-2205/flexit.git"
+  },
   "engines": {
     "vscode": "^1.96.0"
   },
