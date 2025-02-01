@@ -1,0 +1,23 @@
+{
+    "Starter": {
+      "prefix": "st",
+      "body": [
+        "%{",
+        "  /* Definitions */",
+        "%}",
+        "",
+        "%%",
+        "",
+        "/* Rules */",
+        "",
+        "%%",
+        "",
+        "int main() {",
+        "  yylex();",
+        "  return 0;",
+        "}"
+      ],
+      "description": "Basic Flex template"
+    }
+  }
+  

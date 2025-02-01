@@ -1,0 +1,28 @@
+{
+  "name": "flexit",
+  "displayName": "Flexit",
+  "description": "VS Code extension for Flex (.l) file snippets",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "flex",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ],
+    "languages": [
+      {
+        "id": "flex",
+        "extensions": [".l"],
+        "aliases": ["Flex"],
+        "configuration": "./language-configuration.json"
+      }
+    ]
+  }
+}
