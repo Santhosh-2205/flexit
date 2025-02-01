@@ -18,13 +18,25 @@ You can install **Flexit** directly from the [Visual Studio Code Marketplace](ht
 
 ## Available Snippets
 
-- **`st`**: Creates a basic started code.
+- **`st`**:  Flex starter code template.
+- **`int`**: Matches an integer (`[0-9]+`).
+- **`hex`**: Matches a hexadecimal number (`0[xX][0-9a-fA-F]+`).
+- **`oct`**: Matches an octal number (`0[0-7]+`).
+- **`flt`**: Matches a floating-point number (`[0-9]+\\.[0-9]+`).
+- **`id`**: Matches an identifier (`[a-zA-Z_][a-zA-Z0-9_]*`).
+- **`str`**: Matches a string (`"[^"]*"`).
+- **`comm`**: Matches a block comment (`/\\*[^*]*\\*+(?:[^/*][^*]*\\*+)*\\/`).
+- **`lcom`**: Matches a single-line comment (`//.*`).
+- **`ws`**: Matches whitespace characters (`[ \t\r\n]+`).
 
 
 ## Release Notes
 
 ### 1.0.0
 Initial Version
+
+### 1.1.0
+Added more snippets
 
 ## Contributing
 
